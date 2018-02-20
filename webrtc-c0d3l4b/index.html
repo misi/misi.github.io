@@ -673,8 +673,8 @@ a=ssrc:377924797 cname:{0cc05c74-02a9-4474-9885-9ea7674b8299}</code></pre>
 <ul>
 <li>Strong and wide community</li>
 <li>Fast New market</li>
-<li>3,5-4 Billion of potential Browser</li>
-<li>more then 1300+ Vendor and Project based on WebRTC</li>
+<li>3,5-4 Billion of potential Browsers</li>
+<li>More than 1300+ Vendor and Project based on WebRTC</li>
 <li>Wide support in browsers: Chrome,Firefox, Opera, Edge, Safari, etc.</li>
 </ul>
 
@@ -967,33 +967,37 @@ for (var i in types) {
 <li><strong>bitsPerSecond</strong>: Aggregate target bits per second for encoding of all Video and Audio Track(s) present</li>
 </ul>
 <p>After local MediaStream is already captured, we create a MediaRecorderObject and stop with <code>Stop()</code> at the end.</p>
-<p>var localStream;</p>
-<p>var mediaRecorder;</p>
-<p>var chunks = [];</p>
-<p>//localStream set by getUserMedia</p>
-<p>function record() {</p>
-<p>  formatSelect.disabled=true;</p>
-<p>  recordButton.disabled=true;</p>
-<p>  var mediaRecorderOptions={};</p>
-<p>  mediaRecorderOptions.mimeType = formatSelect.value;</p>
-<p>  try {</p>
-<p>    mediaRecorder = new MediaRecorder(localStream, mediaRecorderOptions);</p>
-<p>  } catch (e) {</p>
-<p>    console.error(&#34;Error during mediarecorder creation using format(&#34; + format + &#34;): &#34; + e);</p>
-<p>    alert(&#34;Error during mediarecorder creation using format(&#34; + format + &#34;)&#34;);</p>
-<p>  }</p>
-<p>  mediaRecorder.ondataavailable = dataAvailable;</p>
-<p>  mediaRecorder.start(25); // collect 25ms of data</p>
-<p>  stopButton.disabled=false;</p>
-<p>};</p>
-<p>function dataAvailable(e){</p>
-<p>  chunks.push(e.data);</p>
-<p>};</p>
-<p>function stop() {</p>
-<p>  stopButton.disabled = true;</p>
-<p>  mediaRecorder.stop();</p>
-<p>  replayButton.disabled = false;</p>
-<p>};</p>
+<pre><code>var localStream;
+var mediaRecorder;
+var chunks = [];
+
+//localStream set by getUserMedia
+
+function record() {
+  formatSelect.disabled=true;
+  recordButton.disabled=true;
+  var mediaRecorderOptions={};
+  mediaRecorderOptions.mimeType = formatSelect.value;
+  try {
+    mediaRecorder = new MediaRecorder(localStream, mediaRecorderOptions);
+  } catch (e) {
+    console.error(&#34;Error during mediarecorder creation using format(&#34; + format + &#34;): &#34; + e);
+    alert(&#34;Error during mediarecorder creation using format(&#34; + format + &#34;)&#34;);
+  }
+  mediaRecorder.ondataavailable = dataAvailable;
+  mediaRecorder.start(25); // collect 25ms of data
+  stopButton.disabled=false;
+};
+
+function dataAvailable(e){
+  chunks.push(e.data);
+};
+
+function stop() {
+  stopButton.disabled = true;
+  mediaRecorder.stop();
+  replayButton.disabled = false;
+};</code></pre>
 <h3><strong>Replay and Download</strong></h3>
 <ol type="1" start="1">
 <li>We create from the recorded 25sec recorded chunks a Blob object.</li>
