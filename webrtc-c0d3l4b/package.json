@@ -83,7 +83,7 @@
     "paper-item": "PolymerElements/paper-item#^1.0.2",
     "paper-material": "PolymerElements/paper-material#^1.0.5",
     "paper-menu": "PolymerElements/paper-menu#^1.1.0",
-    "paper-radio-button": "PolymerElements/paper-radio-button#^1.0.6",
+    "paper-radio-button": "0.3.0",
     "paper-radio-group": "PolymerElements/paper-radio-group#^1.0.4",
     "paper-ripple": "PolymerElements/paper-ripple#^1.0.0",
     "paper-styles": "PolymerElements/paper-styles#^1.0.11",
