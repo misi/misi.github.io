@@ -142,7 +142,7 @@
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/paper-radio-group/tar.gz/1305bd0c7158a9d4675ccd7c93b75aa47f923678"
 
-"@bower_components/paper-ripple@PolymerElements/paper-ripple#^1.0.0", paper-ripple@PolymerElements/paper-ripple#^1.0.0:
+"@bower_components/paper-ripple@PolymerElements/paper-ripple#^1.0.0":
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/paper-ripple/tar.gz/6fef0ee16db4b7eec81f270efaf6b55b6ea53aa2"
 
@@ -165,3 +165,8 @@
 default-passive-events@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/default-passive-events/-/default-passive-events-1.0.7.tgz#5d8a568b5526771cf66c25755f36b35b7139c9a6"
+
+paper-ripple@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/paper-ripple/-/paper-ripple-0.3.0.tgz#a5d207ee58777566aa7245b4a2178d079fbf4642"
+  integrity sha1-pdIH7lh3dWaqckW0oheNB5+/RkI=
