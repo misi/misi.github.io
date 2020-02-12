@@ -53,7 +53,7 @@
     "app-layout": "PolymerElements/app-layout#^0.10.0",
     "code-prettify": "google/code-prettify#*",
     "codelab-components": "googlecodelabs/codelab-components#^2.0.2",
-    "default-passive-events": "^1.0.7",
+    "default-passive-events": "^1.0.10",
     "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#^1.0.5",
     "iron-behaviors": "polymerelements/iron-behaviors#^1.0.0",
     "iron-checked-element-behavior": "PolymerElements/iron-checked-element-behavior#^1.0.0",
