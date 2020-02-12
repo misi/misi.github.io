@@ -134,7 +134,7 @@
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/paper-menu/tar.gz/7ca8ebfbdcca22fc98e5115c0ed72bf9d05848fe"
 
-"@bower_components/paper-radio-button@PolymerElements/paper-radio-button#^1.0.6", paper-radio-button@PolymerElements/paper-radio-button#^1.0.6:
+"@bower_components/paper-radio-button@PolymerElements/paper-radio-button#^1.0.6":
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/paper-radio-button/tar.gz/853490b37537ed1675e14c3f68a40db0be45fe9a"
 
@@ -165,3 +165,8 @@
 default-passive-events@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/default-passive-events/-/default-passive-events-1.0.7.tgz#5d8a568b5526771cf66c25755f36b35b7139c9a6"
+
+paper-radio-button@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/paper-radio-button/-/paper-radio-button-0.3.0.tgz#618f9901258117782e875b2e253434293f8e357f"
+  integrity sha1-YY+ZASWBF3guh1suJTQ0KT+ONX8=
