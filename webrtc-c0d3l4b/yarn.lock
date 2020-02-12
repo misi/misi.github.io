@@ -162,6 +162,7 @@
   version "0.7.24"
   resolved "https://codeload.github.com/webcomponents/webcomponentsjs/tar.gz/8a2e40557b177e2cca0def2553f84c8269c8f93e"
 
-default-passive-events@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/default-passive-events/-/default-passive-events-1.0.7.tgz#5d8a568b5526771cf66c25755f36b35b7139c9a6"
+default-passive-events@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/default-passive-events/-/default-passive-events-1.0.10.tgz#28ad3269648a76a0158f413d66e37af24dad053a"
+  integrity sha1-KK0yaWSKdqAVj0E9ZuN68k2tBTo=
