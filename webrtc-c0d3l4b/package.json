@@ -88,7 +88,7 @@
     "paper-ripple": "PolymerElements/paper-ripple#^1.0.0",
     "paper-styles": "PolymerElements/paper-styles#^1.0.11",
     "polymer": "Polymer/polymer#^1.5.0",
-    "web-animations-js": "web-animations/web-animations-js#^2.2.0",
+    "web-animations-js": "2.3.2",
     "webcomponents.js": "webcomponents/webcomponentsjs#^0.7.24"
   },
   "engines": {
